@@ -7,9 +7,16 @@
 //
 
 #include <stdio.h>
-
-int main(int argc, const char * argv[]) {
-    // insert code here...
-    printf("Hello, World!\n");
-    return 0;
+int main() {
+    char s1[] = "Data Structure!"; //배열 숫자를 지정해주면 여백공간이 생김.
+    for (int i = 0; s1[i]; i++) {
+    printf("%c", s1[i]);
+    }
+    printf("\n %d \n", sizeof(s1)); //null 포함 16
+    
+    
+    
 }
+
+
+
